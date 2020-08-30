@@ -1,0 +1,74 @@
+name: AresFactions
+author: Incrementing
+version: 1.0
+description: Ares factions
+main: net.justfactions.jfcore.Core
+depend: [AresAPI, Factions]
+
+commands:
+  vote:
+    description: vote4us
+  apply:
+    description: apply4staff
+  discord:
+    description: talk2us
+  shockwave:
+    description: shockwave
+  sellwand:
+    description: sellwand
+  banalts:
+    description: mass ban alts
+  wild:
+    description: custom wild
+  rocketcreeper:
+    description: rocket creeper
+  reclaim:
+    description: reclaim cmd
+  nickname:
+    description: reclaim cmd
+    aliases: [nick,name]
+  rename:
+    description: rename cmd
+    aliases: [setname]
+  tnt:
+    description: tnt cmd
+    aliases: [tnt]
+  toggleconnectionmessages:
+    description: toggleconnectionmessages cmd
+    aliases: [tcm]
+  nv:
+    description: Night Vision
+    aliases: [nightvision]
+  genbuckets:
+    description: Night Vision
+    aliases: [genbucket, gen, walls]
+
+permissions:
+  jf.member:
+    description: access to member stuff
+    default: true
+  jf.warrior:
+    description: access to warrior stuff
+  jf.hero:
+    description: access to hero stuff
+  jf.titan:
+    description: access to titan stuff
+  jf.helper:
+    description: access to helper stuff
+  jf.mod:
+    description: access to mod stuff
+  jf.admin:
+    description: access to admin stuff
+  jf.owner:
+    description: access to ownerstuff
+    default: op
+  jf.alerts:
+    description: f
+  jf.nickname:
+    description: f
+  jf.rename:
+    description: f
+  jf.tnt:
+    description: f
+  jf.nv:
+    description: f
